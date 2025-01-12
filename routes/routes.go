@@ -9,7 +9,8 @@ import (
 
 func Router() *mux.Router{
     r:=mux.NewRouter();
-    r.HandleFunc("/message",controller.HandlMessage);
+    r.HandleFunc("/message",controller.HandlMessage); 
+    // hello this is divya
     
    return r
 }
